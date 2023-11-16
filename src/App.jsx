@@ -25,7 +25,7 @@ function App() {
     // Your Axios request logic goes here
     axios
       .post(
-        "http://localhost:8000/qrcode",
+        "https://qrcode-generator-backend.onrender.com/qrcode",
         { text },
         { responseType: "arraybuffer" }
       )
